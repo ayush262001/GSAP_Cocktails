@@ -7,10 +7,9 @@ import Hero from './Components/Hero';
 gsap.registerPlugin(ScrollTrigger, SplitText);
 const App = () => {
   return (
-    <main className='overflow-y-hidden'>
+    <main className='overflow-y-hidden app'>
         <NavBar/>
         <Hero/>
-        <div className='h-dvh bg-black'></div>
     </main>
   )
 }
